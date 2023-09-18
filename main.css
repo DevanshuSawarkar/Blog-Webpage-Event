@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkslateblue;
+}
+
+nav{
+    background-color: rgb(43, 35, 97);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h2{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 25px;
+    font-weight: 600;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.first{
+    padding: 25px;
+}
+
+.first-heading{
+    padding: 10px;
+}
+
+.first-heading h2{
+    font-size: 40px;
+}
+
+.card-container{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+}
+.card img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.card p{
+    padding: 0px 5px;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.card button{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.card button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.8);
+}
